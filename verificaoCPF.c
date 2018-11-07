@@ -45,7 +45,7 @@ int verifica(char cpf[]){
             exit(1);
         }   
     }else{
-        if(cpf[9] != 0){
+        if(atoi(aux) != 0){
             printf("Hello");
             exit(1);
         }
@@ -62,7 +62,7 @@ int verifica(char cpf[]){
             exit(1);
         }   
     }else{
-        if(cpf[10] != 0){
+        if(atoi(aux) != 0){
             exit(1);
         }
     }
